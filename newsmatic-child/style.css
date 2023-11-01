@@ -1,0 +1,36 @@
+/*
+Theme Name: Newsmatic Child
+Theme URI: https://blazethemes.com/theme/newsmatic-free/
+Template: newsmatic
+Author: BlazeThemes
+Author URI: https://blazethemes.com/
+Description: Newsmatic is complete solution for your news website. It is fast, features rich, customizer-based, and multipurpose free news theme. It is multilingual compatibility, gutenberg compatibility, elementor compatibility and can be integrated easily with newsletter/form plugins. This theme is schema ready, which makes it a favourite for search engines. Newsmatic Theme does not collect any kind of personal data restricted under GDPR, so you can sleep without any worry by using our theme on your website. Developed by dedicated developers, it has user friendly and easy to use advanced control fields like select2, react color picker, image selector, typography field and many more inside the theme. Check out our pre-build demos here: https://blazethemes.com/theme/newsmatic-free. For Detailed Tutorial video please visit: https://www.youtube.com/watch?v=fb8qJ2XEZzQ
+Version: 1.2.15
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newsmatic
+Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, theme-options, threaded-comments, translation-ready
+
+*/
+
+body.single-post table tr td {
+    color: red !important;
+    font-size: 20px;
+
+}
+
+
+body.single-post .quotes {
+    width: 100%;
+    min-height: 100px;
+    padding-left: 30px;
+    background: yellow;
+    color: black;
+}
+
+.openingtime,
+.closingtime {
+    display: inline-block;
+}
