@@ -9,6 +9,8 @@
 
 get_header();
 
+print_r('single file is running');
+
 
 
 if( class_exists( 'Nekit_Render_Templates_Html' ) ) :

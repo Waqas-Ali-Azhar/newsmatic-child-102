@@ -34,3 +34,91 @@ body.single-post .quotes {
 .closingtime {
     display: inline-block;
 }
+
+
+body.category-engineering .primary-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    flex: 0 1 100% !important;
+}
+
+body.category-engineering h2 a {
+    color: red !important;
+}
+
+body.category-engineering div.news-list-wrap {
+    display: flex;
+}
+
+body.category-engineering a.article-link {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    text-decoration: none;
+
+}
+
+body.category-engineering a.article-link article {
+    height: inherit;
+    width: 100%;
+    align-items: center !important;
+}
+
+body.category-engineering article.post .acontent {
+    width: 100%;
+}
+
+body.category-engineering article.post h2 {
+    color: white;
+    text-align: center;
+}
+
+
+/*
+================================
+Demo-1 css
+================================
+*/
+
+body.page-template-demo-1 #theme-content .row .primary-content,
+body.page-template-demo-1 #theme-content .row .primary-content {
+    max-width: 100% !important;
+    flex: 0 1 100% !important;
+}
+
+
+
+body.page-template-demo-1 .primary-content a.article-link {
+    width: 24%;
+    display: inline-block;
+    float: left;
+    margin: 3px;
+
+    border: 1px dotted black;
+    text-decoration: none;
+    min-height: 510px !important;
+
+}
+
+body.page-template-demo-1 a.article-link:hover {
+    color: red;
+}
+
+body.page-template-demo-1 .primary-content article {
+    width: 100%;
+}
+
+body.page-template-demo-1 #theme-content div.newsmatic-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px !Important;
+}
+
+body.page-template-demo-1 div.post-inner-wrapper {
+    padding: 0px !important;
+}
